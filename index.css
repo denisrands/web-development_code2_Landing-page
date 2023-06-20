@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #2c0685;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #394163;
+    padding: 10px;
+  }
+  
+  ul.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.tabs li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  ul.tabs li.active {
+    background-color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section.tabContent {
+    display: none;
+  }
+  
+  section.tabContent.active {
+    display: block;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
